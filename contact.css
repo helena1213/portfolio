@@ -1,0 +1,116 @@
+body{
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    background-color: rgb(255, 251, 251);
+    color: rgb(39, 39, 39);
+}
+
+/*해더영역*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(122, 147, 197);
+    color: white;
+    padding: 0px 20px;
+    height: 74px;
+    align-items: center;
+    font-weight: 800px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+    
+    h1 {
+        color: rgb(255, 255, 255);
+    }
+    
+ 
+
+    .nav-list {
+        display: inline;
+        font-size: 16px;
+    
+    }
+    
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #line-button {
+        display: inline;
+        padding: 8px 20px;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 12px;
+    }
+    
+    #line-button:hover {
+        display: inline;
+        padding: 8px 20px;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        background-color: rgb(148, 170, 212);
+        border-radius: 12px;
+    }
+
+    #line-button:active {
+        display: inline;
+        padding: 8px 20px;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        background-color: rgb(56, 98, 175);
+        border-radius: 12px;
+    }
+    
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /*메인영역*/
+main{
+    margin-top: 74px;
+}
+
+.portfolio-img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: o auto;
+    display: flex;
+    gap: 20px;
+    padding: 100px 20px;
+}
+
+.sub-heading {
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    padding-bottom: 8px;
+}
+
+.text {
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.sns {
+    font-size: 12px;
+    padding: 4px 0px;
+}
+
+.sns:hover{
+    font-weight: 600;
+    color: blue;
+}
